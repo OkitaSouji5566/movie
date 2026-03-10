@@ -119,6 +119,14 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
 
+
+        <!-- 固定 Servlet API 版本，避免运行时落到 3.x 导致 getHttpServletMapping() 缺失 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
         <!-- shiro安全权限框架 -->
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -221,7 +229,7 @@
         <repository>
             <id>aliyun</id>
             <name>aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -237,7 +245,7 @@
         <pluginRepository>
             <id>aliyun</id>
             <name>aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -246,4 +254,5 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 </project>
