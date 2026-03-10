@@ -1,0 +1,169 @@
+10:09:24.569 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+10:09:24.575 [restartedMain] INFO  c.s.c.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 1.8.0_102 on OkitaSouji with PID 11836 (D:\Alunwen\movie system\movie\serve\cinema-backend\target\classes started by 12922 in D:\Alunwen\movie system\movie\serve)
+10:09:24.575 [restartedMain] INFO  c.s.c.BackendApplication - [logStartupProfileInfo,660] - No active profile set, falling back to default profiles: default
+10:09:25.276 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:09:25.806 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:09:26.172 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9231"]
+10:09:26.173 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:09:26.173 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:09:26.262 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:09:26.690 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:09:26.695 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:09:26.695 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:09:26.695 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:09:26.696 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:09:26.696 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:09:26.696 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:09:26.696 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1d3fd55e
+10:09:26.775 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9231"]
+10:09:26.787 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:09:26.802 [restartedMain] INFO  c.s.c.BackendApplication - [logStarted,61] - Started BackendApplication in 2.534 seconds (JVM running for 3.381)
+10:09:26.804 [restartedMain] INFO  c.s.c.BackendApplication - [main,28] - =====================项目后端启动成功============================
+10:09:34.823 [http-nio-9231-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:12:04.833 [Thread-11] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:12:05.182 [Thread-11] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:12:05.182 [Thread-11] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:12:05.183 [Thread-11] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:12:05.184 [Thread-11] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+10:12:05.187 [Thread-11] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+10:12:40.865 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+10:12:40.872 [restartedMain] INFO  c.s.c.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 1.8.0_102 on OkitaSouji with PID 27388 (D:\Alunwen\movie system\movie\serve\cinema-backend\target\classes started by 12922 in D:\Alunwen\movie system\movie\serve)
+10:12:40.873 [restartedMain] INFO  c.s.c.BackendApplication - [logStartupProfileInfo,660] - No active profile set, falling back to default profiles: default
+10:12:41.596 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:12:42.074 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:12:42.449 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9231"]
+10:12:42.449 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:12:42.449 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:12:42.532 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:12:42.968 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:12:42.973 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:12:42.973 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:12:42.973 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:12:42.974 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:12:42.974 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:12:42.974 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:12:42.974 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@91d0f86
+10:12:43.054 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9231"]
+10:12:43.065 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:12:43.072 [restartedMain] INFO  c.s.c.BackendApplication - [logStarted,61] - Started BackendApplication in 2.508 seconds (JVM running for 3.279)
+10:12:43.073 [restartedMain] INFO  c.s.c.BackendApplication - [main,28] - =====================项目后端启动成功============================
+10:12:47.939 [http-nio-9231-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:18:14.897 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+10:18:14.910 [restartedMain] INFO  c.s.c.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 1.8.0_102 on OkitaSouji with PID 19324 (D:\Alunwen\movie system\movie\serve\cinema-backend\target\classes started by 12922 in D:\Alunwen\movie system\movie\serve)
+10:18:14.910 [restartedMain] INFO  c.s.c.BackendApplication - [logStartupProfileInfo,660] - No active profile set, falling back to default profiles: default
+10:18:16.081 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:18:16.815 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:18:17.258 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9231"]
+10:18:17.259 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:18:17.259 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:18:17.356 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:18:17.865 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:18:17.874 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:18:17.874 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:18:17.875 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:18:17.875 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:18:17.875 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:18:17.875 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:18:17.875 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@c6463c8
+10:18:17.961 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9231"]
+10:18:17.984 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:18:17.989 [restartedMain] INFO  c.s.c.BackendApplication - [logStarted,61] - Started BackendApplication in 3.515 seconds (JVM running for 15.5)
+10:18:17.992 [restartedMain] INFO  c.s.c.BackendApplication - [main,28] - =====================项目后端启动成功============================
+10:18:24.561 [http-nio-9231-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:22:05.242 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:22:05.579 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:22:05.580 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:22:05.580 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:22:05.582 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+10:22:05.586 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+10:22:45.783 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+10:22:45.792 [restartedMain] INFO  c.s.c.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 1.8.0_102 on OkitaSouji with PID 11732 (D:\Alunwen\movie system\movie\serve\cinema-backend\target\classes started by 12922 in D:\Alunwen\movie system\movie\serve)
+10:22:45.793 [restartedMain] INFO  c.s.c.BackendApplication - [logStartupProfileInfo,660] - No active profile set, falling back to default profiles: default
+10:22:46.488 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:22:46.939 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:22:47.295 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9231"]
+10:22:47.296 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:22:47.296 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:22:47.380 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:22:47.799 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:22:47.804 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:22:47.804 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:22:47.805 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:22:47.805 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:22:47.805 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:22:47.805 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:22:47.805 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@55f8a256
+10:22:47.882 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9231"]
+10:22:47.896 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:22:47.901 [restartedMain] INFO  c.s.c.BackendApplication - [logStarted,61] - Started BackendApplication in 2.416 seconds (JVM running for 3.188)
+10:22:47.903 [restartedMain] INFO  c.s.c.BackendApplication - [main,28] - =====================项目后端启动成功============================
+10:22:54.386 [http-nio-9231-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:27:16.865 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:27:17.312 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:27:17.312 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:27:17.313 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:27:17.314 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+10:27:17.317 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+10:27:40.320 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+10:27:40.328 [restartedMain] INFO  c.s.c.BackendApplication - [logStarting,55] - Starting BackendApplication using Java 1.8.0_102 on OkitaSouji with PID 25676 (D:\Alunwen\movie system\movie\serve\cinema-backend\target\classes started by 12922 in D:\Alunwen\movie system\movie\serve)
+10:27:40.329 [restartedMain] INFO  c.s.c.BackendApplication - [logStartupProfileInfo,660] - No active profile set, falling back to default profiles: default
+10:27:41.047 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:27:41.605 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:27:41.959 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9231"]
+10:27:41.959 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:27:41.959 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:27:42.038 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:27:42.467 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+10:27:42.472 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:27:42.472 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+10:27:42.473 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+10:27:42.473 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+10:27:42.473 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+10:27:42.473 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+10:27:42.474 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3957f5d2
+10:27:42.551 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9231"]
+10:27:42.563 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+10:27:42.577 [restartedMain] INFO  c.s.c.BackendApplication - [logStarted,61] - Started BackendApplication in 2.548 seconds (JVM running for 17.981)
+10:27:42.579 [restartedMain] INFO  c.s.c.BackendApplication - [main,28] - =====================项目后端启动成功============================
+10:32:40.067 [http-nio-9231-exec-7] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:34:38.508 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:34:38.855 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:34:38.855 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:34:38.855 [SpringContextShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:34:38.857 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+10:34:38.859 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
